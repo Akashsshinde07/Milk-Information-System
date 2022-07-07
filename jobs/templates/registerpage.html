@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% load static %}
+<link rel="stylesheet" href="{% static 'loginpage1.css'%}">
+</head>
+<body style="background-image: url('{% static 'login.png'%}');">
+<div class="container">
+<div class="wrapper" >
+    <div class="name">Registration</div>
+    <form class="p-3 mt-3" action='register' method="POST">
+
+        <div class="form-field"> <span class="far fa-user"></span>
+            <input type="text" name="username" id="userName" placeholder="User Name" autocomplete="off" required>
+        </div>
+        <div class="form-field"> <span class="fas fa-key"></span>
+            <input type="password" name="create_pass" id="pwd" placeholder="Create Password" autocomplete="off" required>
+        </div>
+        <div class="form-field"> <span class="fas fa-key"></span>
+            <input type="password" name="conform_pass" id="pwd1" placeholder="Confirm Password" autocomplete="off" required>
+        </div>
+       <button class="btn">Register</button>
+</form>
+    <a href='loginpage'><button class="btn1">Login</button></a>
+
+</div>
+</div>
+</body>
+</html>

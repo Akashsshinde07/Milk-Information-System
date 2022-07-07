@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+{% block content %}
+{% load static %}
+     <link rel="stylesheet" href="{% static 'gir cattles1.css'%}">
+
+    <div class="wrapper">
+        <div class="name"><i>Quantity of Milk...</i></div>
+                 <form class="p-3 mt-3" action='add'>
+                       <div class="form-field">
+                            <input type="text" name="num1" id="userName" placeholder="Enter Milk In MiliLiter" autocomplete="off" required>
+                       </div>
+                     <button class="btn">result</button>
+                 </form>
+    </div>
+<!--img src="{% static 'deoni cattle.jpg' %}" width="15%" height="150px"-->
+<div class="container">
+<h1 style="color:khaki;">Gir Cattle</h1>
+<p><h2>          The Gir or Gyr is one of the principal Zebu breeds originating in India. It has been used locally in the
+    improvement of other breeds including the Red Sindhi and the Sahiwal. It was also one of the breeds used in the
+    development of the Brahman breed in North America. In Brazil and other South American countries the Gir is used
+    frequently because, as a Bos indicus breed, it is resistant to hot temperatures and tropical diseases. </h2></p>
+</div>
+{% endblock %}
+{% endblock body %}

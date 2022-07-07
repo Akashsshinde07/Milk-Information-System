@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+{% block content %}
+{% load static %}
+     <link rel="stylesheet" href="{% static 'gir cattles1.css'%}">
+    <div class="wrapper" >
+        <div class="name"><i>Quantity of Milk...</i></div>
+                 <form class="p-3 mt-3" action='add2'>
+                       <div class="form-field">
+                            <input type="text" name="num1" id="userName" placeholder="Enter Milk In MiliLiter" autocomplete="off" required>
+                       </div>
+                     <button class="btn">result</button>
+                 </form>
+    </div>
+<!--img src="{% static 'deoni cattle.jpg' %}" width="15%" height="150px"-->
+<div class="container">
+<h1 style="color:khaki;">Hariana Cattle</h1>
+<p><h2>           Hariana or haryanvi is an Indian breed of cow native to North India, specially in the state of Haryana.
+    They produce about 10 to 15 litres of milk a day, compared to 8.9 litres when cross-bred with Holstein Friesian
+    cattle (HS), whereas pure HS can produce 50 litres a day, but it is not as disease-resistant in the conditions
+    of North India.</h2></p>
+</div>
+{% endblock %}
+{% endblock body %}

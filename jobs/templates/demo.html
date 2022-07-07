@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% load static %}
+<link rel="stylesheet" href="{% static 'demo.css'%}">
+  <script src="{% static 'animals.js'%}"></script>
+</head>
+<body>
+
+<nav>
+    <ul>
+       <li class="logo">Milk Production System</li>
+       <li class="items"><a href="\demo">Home</a></li>
+       <li class="items"><a href="\contact">Contact</a></li>
+       <li class="items"><a href="\aboutus">About Us</a></li>
+       <li class="items"><a href="\logout">LogOut</a></li>
+    </ul>
+  </nav>
+<hr style="border-color:red;" width="70%">
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search For Animals Names.." title="Type in a name">
+
+<table id="myTable">
+  <tr>
+      <td><a href="\base">Alfreds Futterkiste</a></td>
+  </tr>
+  <tr>
+    <td>Berglunds snabbkop</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+  </tr>
+  <tr>
+    <td>Koniglich Essen</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+  </tr>
+  <tr>
+    <td>North/South</td>
+  </tr>
+  <tr>
+    <td>Paris specialites</td>
+  </tr>
+</table>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+{% block content %}
+{% load static %}
+     <link rel="stylesheet" href="{% static 'gir cattles1.css'%}">
+    <div class="wrapper" >
+        <div class="name"><i>Quantity of Milk...</i></div>
+                 <form class="p-3 mt-3" action='add7'>
+                       <div class="form-field">
+                            <input type="text" name="num1" id="userName" placeholder="Enter Milk In MiliLiter" autocomplete="off" required>
+                       </div>
+                     <button class="btn">result</button>
+                 </form>
+    </div>
+<!--img src="{% static 'deoni cattle.jpg' %}" width="15%" height="150px"-->
+<div class="container">
+<h1 style="color:khaki;">Nagpuri Buffalo</h1>
+<p><h2>           The Nagpuri is a breed of water buffalo originating in Maharashtra, India. It stands better amongst the
+    breeds of buffaloes which combine the milk and drought qualities in a better proportion in adverse climatic
+    conditions. It is a River type buffalo. It is a central Indian breed. The breed has many synonyms, such as
+    "Berari", "Gaorani", "Puranthadi", "Varhadi", "Gaolavi", "Arvi", "Gaolaogan", "Gangauri", "Shahi" and "Chanda".</h2></p>
+</div>
+{% endblock %}
+{% endblock body %}

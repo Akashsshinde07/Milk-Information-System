@@ -1,0 +1,21 @@
+{
+  box-sizing: border-box;
+  color: white;
+  background-color: black;
+  }
+  #myTable {
+  border-collapse: collapse;
+  margin-left: 1%;
+  width: 98%;
+  border: 1px solid #ddd;
+  font-size: 22px;
+}
+
+#myTable th, #myTable td {
+  text-align: center;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}

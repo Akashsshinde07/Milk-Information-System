@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% load static %}
+<link rel="stylesheet" href="{% static 'loginpage1.css'%}">
+</head>
+<body style="background-image: url('{% static 'login.png'%}');">
+
+<div class="container">
+    <div class="wrapper" >
+        <div class="name"><i>LOGIN</i></div>
+                 <form class="p-3 mt-3" action='cattle'>
+                       <div class="form-field"> <span class="far fa-user"></span>
+                            <input type="text" name="user Name" id="userName" placeholder="User Name" autocomplete="off" required>
+                       </div>
+                       <div class="form-field"> <span class="fas fa-key"></span>
+                            <input type="password" name="password" id="pwd" placeholder="Password" autocomplete="off" required>
+                       </div>
+                       <button class="btn">Login</button>
+                       <a class="forget" href='forget'>Forget Password !</a>
+                 </form>
+                 <form action='registerpage'>
+                     <button class="btn1">Register</button>
+                 </form>
+    </div>
+</div>
+</body>
+</html>

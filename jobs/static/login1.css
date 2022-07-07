@@ -1,0 +1,77 @@
+body{
+    background: url('s.jpeg')no-repeat;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+ background-size: cover;
+ background-color:black;
+}
+
+.wrapper {
+    max-width: 300px;
+     margin-top: 130px;
+     margin-bottom: 170px;
+    margin-left: 400px;
+    padding: 40px 30px 30px 30px;
+
+ }
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: white;
+}
+
+.wrapper .form-field input {
+    margin-top:10px;
+    margin-left:10px;
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: white;
+    padding: 1px 1px 10px 10px
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px ;
+    box-shadow: inset 2px 2px 2px white, inset -7px -7px 7px cyan;
+}
+
+.wrapper .form-field .fas {
+    color: #555
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 35%;
+    height: 30px;
+    margin-left: 0px;
+    background-color: black;
+    color: #fff;
+    border-radius: 0px;
+    box-shadow: 3px 3px 3px red, -3px -3px 3px red;
+    letter-spacing: 1.3px;
+}
+.wrapper .btn1 {
+    box-shadow: none;
+    width: 35%;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 0px;
+    box-shadow: 3px 3px 3px gray, -3px -3px 3px gray;
+    letter-spacing: 1.3px
+}
+.forget {
+margin-left: 20px;
+color: white;
+}

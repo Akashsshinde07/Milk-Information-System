@@ -1,0 +1,38 @@
+body *,
+html * {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  background-color:black;
+}
+
+body {
+  overflow: hidden;
+}
+
+.full {
+  position: absolute;
+  width: 50%;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+}
+
+.zoom {
+  animation: scale 40s linear infinite;
+}
+
+@keyframes scale {
+   0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}

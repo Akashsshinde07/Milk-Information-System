@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+{% block content %}
+{% load static %}
+     <link rel="stylesheet" href="{% static 'gir cattles1.css'%}">
+    <div class="wrapper" >
+        <div class="name"><i>Quantity of Milk...</i></div>
+                 <form class="p-3 mt-3" action='add4'>
+                       <div class="form-field">
+                            <input type="text" name="num1" id="userName" placeholder="Enter Milk In MiliLiter" autocomplete="off" required>
+                       </div>
+                     <button class="btn">result</button>
+                 </form>
+    </div>
+<!--img src="{% static 'deoni cattle.jpg' %}" width="15%" height="150px"-->
+<div class="container">
+<h1 style="color:khaki;">Murrah Buffalo</h1>
+<p><h2>            The Murrah buffalo is a breed of water buffalo (Bubalus bubalis) mainly kept for milk production. It
+    originates in Haryana and Punjab of India, where it is kept in the districts of Bhiwani, Hisar, Rohtak, Jind,
+    Jhajhar, Fatehabad, Gurgaon and the capital region of Delhi. It has been used to improve the milk production of
+    dairy buffalo in other countries, such as Italy, Bulgaria and Egypt.</h2></p>
+</div>
+{% endblock %}
+{% endblock body %}

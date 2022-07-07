@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% load static %}
+<link rel="stylesheet" href="{% static 'loginpage1.css'%}">
+</head>
+<body style="background-image: url('{% static 'login.png'%}');">
+<div class="container">
+<div class="wrapper" >
+    <div class="name">Forgot Password</div>
+    <form class="p-3 mt-3" action='loginpage'>
+        <div class="form-field"> <span class="far fa-user"></span>
+            <input type="text" name="user Name" id="userName" placeholder="User Name" autocomplete="off" required>
+        </div>
+         <div class="form-field"> <span class="fas fa-key"></span>
+            <input type="password" name="password" id="pwd" placeholder="New Password" autocomplete="off" required>
+        </div>
+        <div class="form-field"> <span class="fas fa-key"></span>
+            <input type="password" name="password" id="pwd" placeholder="Confirm Password" autocomplete="off" required>
+        </div>
+        <button class="btn">Change</button>
+     </form>
+</div>
+</div>
+</body>
+</html>

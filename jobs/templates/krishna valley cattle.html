@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+{% block content %}
+{% load static %}
+     <link rel="stylesheet" href="{% static 'gir cattles1.css'%}">
+    <div class="wrapper" >
+        <div class="name"><i>Quantity of Milk...</i></div>
+                 <form class="p-3 mt-3" action='add3'>
+                       <div class="form-field">
+                            <input type="text" name="num1" id="userName" placeholder="Enter Milk In MiliLiter" autocomplete="off" required>
+                       </div>
+                     <button class="btn">result</button>
+                 </form>
+    </div>
+<!--img src="{% static 'deoni cattle.jpg' %}" width="15%" height="150px"-->
+<div class="container">
+<h1 style="color:khaki;">krishna valley cattle</h1>
+<p><h2>           The Krishna Valley is a relatively modern breed. It was bred from about 1880 by the Mahratta Rajas of the
+    southern part of Hyderabad State (now Maharashtra). A local breed known as Gaonti was cross-bred with Gir,
+    Kankrej and Ongole, with selection for the power and size needed to plough the sticky soil of the valleys of the
+    Krishna River and its tributaries such as the Ghatprabha and the Malaprabha.</h2></p>
+</div>
+{% endblock %}
+{% endblock body %}
