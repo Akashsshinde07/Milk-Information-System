@@ -70,29 +70,6 @@ def Logout(request):
     return redirect('/')
 
 
-def welcome(request):
-    return render(request, 'welcome.html')
-
-def aaa(request):
-    return render(request, 'aaa.html')
-
-def loginpage(request):
-    return render(request, 'loginpage.html')
-
-
-
-def registerpage(request):
-    return render(request, 'registerpage.html')
-
-
-def forget(request):
-    return render(request, 'forget.html')
-
-
-def contact(request):
-    return render(request, 'contact.html')
-
-
 def about(request):
     return render(request, 'about.html')
 
@@ -107,10 +84,6 @@ def cattle(request):
 
 def demo(request):
     return render(request, 'demo.html')
-
-
-def buffalo(request):
-    return render(request, 'buffalo.html')
 
 
 def gir(request):
